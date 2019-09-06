@@ -1,5 +1,5 @@
 public class Encryption {
-    public String runCypher(String words, int key) {
+    public String runCaesar(String words, int key) {
 
         int length = words.length();
 //        int choice = 0;
