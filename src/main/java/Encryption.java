@@ -15,9 +15,13 @@ public class Encryption {
                 }
                 crypted = crypted + word;
             }
-//            return crypted;
+
             else if (word >='A' && word <='Z'){
-                word = (char) (word +key );
+                word = (char) (word + key );
+                if (word > 'Z') {
+                    word =(char) (word - 'Z' + 'A' - 1 );
+                }
+                crypted = crypted + word;
             }
         }
         return crypted;
