@@ -8,9 +8,11 @@ public class App {
     public class App {
         public static void main(String[] args) {
             Console myConsole = System.console();
-            System.out.println("Encryption");
+//           System.out.println("Encryption");
             System.out.println("Enter the message :");
             String Words = myConsole.readLine();
+            System.out.println("enter the shift key");
+            int key =Integer.parseInt (myConsole.readLine());
 
 
 
