@@ -1,22 +1,29 @@
 public class Encryption {
-    public String runCypher(String words , int key){
+    public String runCypher(String words, int key) {
 
-        int length=words.length();
-        int choice = 0;
+        int length = words.length();
+//        int choice = 0;
         char word;
-        if(choice == 1) {
-            for (int i = 0; i <length; i++) {
-                word=words.charAt(i);
-                if(word >= 'a' && word <= 'z'){
-                    word=(char)(word + key) ;
-                    if(word)
+        String crypted = "";
+//        if(choice == 2) {
+        for (int i = 0; i < length; i++) {
+            word = words.charAt(i);
+            if (word >= 'a' && word <= 'z') {
+                word = (char) (word + key);
+                if (word > 'z') {
+                    word = (char) (word - 'z' + 'a' - 1);
                 }
+                crypted = crypted + word;
             }
-
-            }
-            }
+//            return crypted;
         }
+        return crypted;
     }
+}
+
+
+
+
 
 
 //    String ciphertext = "";

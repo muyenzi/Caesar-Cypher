@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49b9a56-eedc-4e9c-88a1-10ae483474d4" name="Default Changelist" comment="">
+    <list default="true" id="f49b9a56-eedc-4e9c-88a1-10ae483474d4" name="Default Changelist" comment="added the looping condition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encryption.java" afterDir="false" />
     </list>
@@ -66,5 +66,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added the looping condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the looping condition" />
   </component>
 </project>
