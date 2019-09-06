@@ -16,6 +16,9 @@ public class Encryption {
                 crypted = crypted + word;
             }
 //            return crypted;
+            else if (word >='A' && word <='Z'){
+                word = (char) (word +key );
+            }
         }
         return crypted;
     }
