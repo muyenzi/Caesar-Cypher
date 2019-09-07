@@ -22,3 +22,11 @@ PROJECT LINK
 
 
 
+SUPPORT AND CONTACT
+contact me : muyenziraissa@gmail.com
+
+LICENSE
+Licensed by MIT copyright @ 2019 Raissa Muyenzi
+
+
+
