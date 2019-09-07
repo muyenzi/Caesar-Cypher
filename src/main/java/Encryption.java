@@ -1,10 +1,13 @@
 public class Encryption {
-    public String runCaesar(String words, int key) {
+//    public static String runCaesar;
 
+    public static  StringBuffer runCaesar(String words, int key) {
+
+        StringBuffer crypted =new StringBuffer();
         int length = words.length();
 //        int choice = 0;
         char word;
-        String crypted = "";
+//        String crypted = "";
 //        if(choice == 2) {
         for (int i = 0; i < length; i++) {
             word = words.charAt(i);
@@ -13,7 +16,8 @@ public class Encryption {
                 if (word > 'z') {
                     word = (char) (word - 'z' + 'a' - 1);
                 }
-                crypted = crypted + word;
+//                crypted = crypted + word;
+                crypted.append(word);
             }
 
             else if (word >='A' && word <='Z'){
@@ -21,7 +25,8 @@ public class Encryption {
                 if (word > 'Z') {
                     word =(char) (word - 'Z' + 'A' - 1 );
                 }
-                crypted = crypted + word;
+//                crypted = crypted + word;
+                crypted.append(word);
             }
         }
         return crypted;
