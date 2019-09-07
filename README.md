@@ -1,26 +1,18 @@
 # Caesar-Cypher
-Ray's Pizzeria
 by Raissa Muyenzi
 DESCRIPTION
-Ray's Pizzeria
-helps people to order pizzas online and deliver it at their locations.
+Caesar-Cypher
+helps people to encrypt text or decrypt it.
 
 SETUP INSTALLATION REQUIRED
-*UBUNTU *VISIO CODE *GOOGLE CHROME
+*UBUNTU *IntelJ *GOOGLE CHROME
 
 TECHNOLOGY USED
-*HTML *CSS *JAVA SCRIPT *JQUERY
+*HTML *CSS *JAVA
 
 BDD
-Input In this webpage;there is a form to fill for clients who want to place their orders. They have to select the pizza name(EXAMPLE :pepperoni) size (**EXAMPLE:small) crust (**EXAMPLE:slim) toppings (**EXAMPLE:onions) number (**EXAMPLE:2) and if he wants his pizza to be delivered or not.
+Input In this webpage;there is a form to fill for user who want to encrypt or decrypt words. 
+They have to enter the text(EXAMPLE :pepperoni)
+shift key (**EXAMPLE:2)
+click on the encrypt or decrypt button .
 
-Output The client will get the total amount of his order . and If The client wants his pizza to be delivered to him ,he will be alerted to give his address.
-
-PROJECT LINK
-https://muyenzi.github.io/pizza/
-
-SUPPORT AND CONTACT
-contact me : muyenziraissa@gmail.com
-
-LICENSE
-Licensed by MIT copyright @ 2019 Raissa Muyenzi
