@@ -13,6 +13,12 @@ TECHNOLOGY USED
 BDD
 Input In this webpage;there is a form to fill for user who want to encrypt or decrypt words. 
 They have to enter the text(EXAMPLE :pepperoni)
-shift key (**EXAMPLE:2)
-click on the encrypt or decrypt button .
+shift key (EXAMPLE:2)
+click on the encrypt or decrypt button.
+
+Output The user will get the the encrypted or decrypted word
+
+PROJECT LINK
+
+
 
