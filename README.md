@@ -1,4 +1,4 @@
-# Caesar-Cypher
+# Caesar-Cipher
 
 helps people to encrypt text or decrypt it.
 
@@ -7,7 +7,7 @@ helps people to encrypt text or decrypt it.
 +  Application use
 +  Setup installation Required
 +  BDD(Behaviour Driven Development)
-+  Technologies used
++  Technologies used********
 +  Installation
 +  Contacts
 +  Lisence
@@ -39,6 +39,20 @@ Output The user will get the the encrypted or decrypted word
 +  Install IntelJ
 +  Create a new Gradle project
 +  Open the terminal to run 
+
+##  PICTURES OF CODES
+
+* Encryption.java
+  
+<img src="pictures/encry.png">
+
+* Decryption.java
+     
+   <img src="pictures/decry.png">
+  
+ * App.java
+     
+   <img src="pictures/app.png">
 
 ##  CONTACTS
 
