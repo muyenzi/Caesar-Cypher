@@ -58,7 +58,7 @@ Output The user will get the the encrypted or decrypted word
 
 For support contact us:
 +  Email:muyenziraissa@gmail.com
-+  Phone.Nbr:+2507309838
++  Phone.Nbr:+250789719424
 +  Twitter:@raissa_
 +  Slack:Muyenziraissa.
 
